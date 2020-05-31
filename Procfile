@@ -1,1 +1,1 @@
-web: gunicorn ShopifyProject.wsgi --log-file -
+web: gunicorn shopify.wsgi --log-file -
