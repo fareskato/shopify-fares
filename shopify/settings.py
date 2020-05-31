@@ -24,9 +24,10 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 SECRET_KEY = 'gjrn2*k7ki+*kj^s@^bc)a@9&&2dhr#2i-md_)pt@jjzlbwe2)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['ecommerce-fares.herokuapp.com','127.0.0.1' ]
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -145,8 +146,8 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'fareskato@gmail.com'
-EMAIL_HOST_PASSWORD = 'fareskato19782008'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 
